@@ -33,6 +33,7 @@ public class CustomListner extends BaseTest implements ITestListener{
 			e.printStackTrace();
 		}
 		utility.takeScreenshot();
+		System.out.println(">>>>> branch testing ");
 		
 	}
 
