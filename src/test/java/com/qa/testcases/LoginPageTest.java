@@ -28,7 +28,6 @@ public class LoginPageTest extends BaseTest{
 		initilization();
 		loginpage = new LoginPage();
 		//log.info(">>>>>>Initilization of browser");
-		System.out.println(">>>>> branch testing ");
 	}
 	
 	@Test(priority=1)

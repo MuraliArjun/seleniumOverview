@@ -32,9 +32,7 @@ public class CustomListner extends BaseTest implements ITestListener{
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		utility.takeScreenshot();
-		System.out.println(">>>>> branch testing ");
-		
+		utility.takeScreenshot();	
 	}
 
 	public void onTestSkipped(ITestResult result) {
